@@ -21,12 +21,11 @@ window.PROFILE = {
   cv: "files/CV.pdf",                      // CV PDF 경로 (없으면 "")
 
   /* --- 출판물 페이지에서 굵게 강조할 저자명 --- */
-  highlightAuthor: "Hong, G.",
+  highlightAuthor: "Gong, S.",
 
   /* --- 외부 링크 (원하는 만큼 추가/삭제) --- */
   links: [
     { label: "GitHub", url: "https://github.com/아이디" },
-    { label: "Google Scholar", url: "https://scholar.google.com/citations?user=아이디" },
     { label: "ORCID", url: "https://orcid.org/0000-0000-0000-0000" },
     { label: "LinkedIn", url: "" }          // url 이 "" 이면 표시되지 않습니다
   ],
