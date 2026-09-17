@@ -25,8 +25,8 @@ window.PROFILE = {
 
   /* --- 외부 링크 (원하는 만큼 추가/삭제) --- */
   links: [
-    { label: "GitHub", url: "https://github.com/아이디" },
-    { label: "ORCID", url: "https://orcid.org/0000-0000-0000-0000" },
+    { label: "GitHub", url: "https://github.com/SunghoGong" },
+    { label: "ORCID", url: "https://orcid.org/0009-0009-3633-2422" },
     { label: "LinkedIn", url: "" }          // url 이 "" 이면 표시되지 않습니다
   ],
 
@@ -38,8 +38,7 @@ window.PROFILE = {
 
   /* --- 연구 관심 주제 (태그) --- */
   interests: [
-    "코퍼스언어학", "멀티모달 감정분석", "NLP", "컴퓨터비전",
-    "시계열 통계모델링", "대중음악 담화", "마케팅 애널리틱스"
+    "코퍼스언어학", "멀티모달 감정분석", "NLP", "시계열 통계모델링"
   ],
 
   /* --- 학력 (최신 항목이 자동으로 맨 위) --- */
