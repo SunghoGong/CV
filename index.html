@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{name} · Curriculum Vitae</title>
+<meta name="description" content="개인 CV 홈페이지 — 소개, 출판물, 진행중인 프로젝트">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="home">
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html" data-brand>CV</a>
+    <a class="navlink" data-nav="home" href="index.html">Main</a>
+    <a class="navlink" data-nav="publications" href="publications.html">Publications</a>
+    <a class="navlink" data-nav="projects" href="projects.html">Projects</a>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <div class="profile" id="profile"></div>
+
+  <section class="block">
+    <h2>About</h2>
+    <div class="intro" id="intro"></div>
+  </section>
+
+  <section class="block">
+    <h2>Research Interests</h2>
+    <div class="tags" id="interests"></div>
+  </section>
+
+  <section class="block">
+    <h2>Education</h2>
+    <ul class="timeline" id="education"></ul>
+  </section>
+
+  <section class="block">
+    <h2>Experience</h2>
+    <ul class="timeline" id="experience"></ul>
+  </section>
+
+  <section class="block">
+    <h2>News</h2>
+    <ul class="timeline" id="news"></ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap" id="footer-text"></div>
+</footer>
+
+<script src="data/profile.js"></script>
+<script src="data/publications.js"></script>
+<script src="data/projects.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
