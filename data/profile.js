@@ -7,15 +7,16 @@ window.SITE_UPDATED = "2026-09";   // 푸터에 표시되는 갱신 시점
 
 window.PROFILE = {
   /* --- 이름 / 직급 / 소속 --- */
-  name: "홍길동",
-  nameEn: "Gildong Hong",
+  name: "공성호",
+  nameEn: "Sungho Gong",
   position: "석사과정 (M.A. Student)",
   department: "영어영문학과 · 코퍼스언어학 전공",
-  affiliation: "○○대학교 대학원",
+  affiliation: "경북대학교 대학원",
 
   /* --- 연락처 --- */
-  email: "your.email@example.com",
-  office: "인문대학 ○○관 000호",          // 필요 없으면 ""
+  email1: "sam2638@knu.ac.kr",
+  email2: "gongsungho12@gmail.com",
+  office: "",          // 필요 없으면 ""
   photo: "images/profile.jpg",             // 파일이 없으면 이니셜 원형이 표시됩니다
   cv: "files/CV.pdf",                      // CV PDF 경로 (없으면 "")
 
